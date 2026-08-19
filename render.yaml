@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: boutique-stock
+    runtime: java
+    buildCommand: javac App.java
+    startCommand: java App
+    healthCheckPath: /
